@@ -1,3 +1,32 @@
+:root {
+  --background-color: linear-gradient(
+    44.8deg,
+    rgba(255, 136, 102, 0.67) -53.1%,
+    rgba(255, 221, 136, 0.28) 49%
+  );
+  --primary-color: #bb5a5a;
+  --secondary-color: #e79e85;
+}
 body {
   margin: 60px;
+  background: var(--background-color);
+}
+
+h2 {
+  color: #bb5a5a;
+}
+
+a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+a:hover {
+  text-decoration: underline;
+  color: var(--secondary-color);
+}
+.croissant-photo {
+  max-width: 75%;
+  display: block;
+  margin: 0 auto;
 }
