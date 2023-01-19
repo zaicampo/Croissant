@@ -26,7 +26,7 @@ a:hover {
   color: var(--secondary-color);
 }
 .croissant-photo {
-  max-width: 75%;
+  max-width: 65%;
   display: block;
   margin: 0 auto;
 }
