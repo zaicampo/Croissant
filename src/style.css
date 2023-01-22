@@ -12,6 +12,7 @@ body {
   background: var(--background-color);
 }
 
+h1,
 h2 {
   color: #bb5a5a;
 }
